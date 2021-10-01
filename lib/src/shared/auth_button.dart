@@ -61,5 +61,8 @@ class AuthButton extends AuthButtonStyleButton {
   }
 
   @override
+  String? getIconUrl() => '';
+
+  @override
   Color? getProgressIndicatorValueColor() => Colors.blue;
 }

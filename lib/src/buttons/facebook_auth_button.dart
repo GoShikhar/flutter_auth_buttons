@@ -18,6 +18,7 @@ class FacebookAuthButton extends AuthButton {
     bool darkMode = false,
     bool rtl = false,
     bool isLoading = false,
+    bool alignLeft = false,
     AuthButtonStyle? style,
   }) : super(
           key: key ?? const ValueKey<String>('FacebookAuthButton'),
@@ -27,6 +28,7 @@ class FacebookAuthButton extends AuthButton {
           darkMode: darkMode,
           rtl: rtl,
           isLoading: isLoading,
+          alignLeft: alignLeft,
           style: style,
         );
 
