@@ -15,6 +15,7 @@ class ButtonContents extends StatelessWidget {
     this.rtl = false,
     this.isLoading = false,
     this.buttonType,
+    this.alignLeft = false,
     this.style,
   }) : super(key: key);
 
@@ -23,6 +24,7 @@ class ButtonContents extends StatelessWidget {
   final bool darkMode;
   final bool rtl;
   final bool isLoading;
+  final bool alignLeft;
   final AuthButtonType? buttonType;
   final AuthButtonStyle? style;
 
@@ -32,7 +34,7 @@ class ButtonContents extends StatelessWidget {
       key: key,
       mainAxisSize: MainAxisSize.min,
       mainAxisAlignment:
-          (alignLeft) ? MainAxisAlignment.left : MainAxisAlignment.center,
+          (alignLeft) ? MainAxisAlignment.start : MainAxisAlignment.center,
       textDirection: rtl ? TextDirection.rtl : null,
       children: <Widget>[
         Container(
