@@ -41,11 +41,11 @@ class MobileAuthButton extends AuthButton {
   @override
   String getIconUrl() {
     if (style!.iconType == AuthIconType.outlined)
-      return darkMode ? AuthIcons.emailWhite[1] : AuthIcons.sim[0];
+      return darkMode ? AuthIcons.sim[1] : AuthIcons.sim[0];
     if (style!.iconType == AuthIconType.secondary) return AuthIcons.sim[0];
     return (style!.buttonType == AuthButtonType.secondary)
         ? AuthIcons.sim[0]
-        : AuthIcons.emailWhite[0];
+        : AuthIcons.sim[1];
   }
 
   @override

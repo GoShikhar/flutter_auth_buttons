@@ -52,7 +52,8 @@ class AuthIcons {
   ];
 
   static const List<String> sim = <String>[
-    'packages/auth_buttons/images/default/sim.png'
+    'packages/auth_buttons/images/default/sim.png',
+    'packages/auth_buttons/images/default/sim_white.png'
   ];
 
   static const List<String> emailWhite = <String>[
