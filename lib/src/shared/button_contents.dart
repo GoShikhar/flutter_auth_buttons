@@ -35,10 +35,10 @@ class ButtonContents extends StatelessWidget {
       mainAxisSize: MainAxisSize.min,
       mainAxisAlignment:
           (alignLeft) ? MainAxisAlignment.start : MainAxisAlignment.center,
-      alignment: (alignLeft) ? Alignment.centerLeft : Alignment.center,
       textDirection: rtl ? TextDirection.rtl : null,
       children: <Widget>[
         Container(
+          alignment: (alignLeft) ? Alignment.centerLeft : Alignment.center,
           padding: (buttonType == AuthButtonType.secondary)
               ? const EdgeInsets.all(4.0)
               : null,
