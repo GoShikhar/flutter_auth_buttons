@@ -180,7 +180,7 @@ class AuthButtonStyle {
   final Color? shadowColor;
 
   //Align button contents to left
-  final bool? alignLeft;
+  final bool? alignLeft = false;
   final Color? progressIndicatorColor;
   final Color? progressIndicatorValueColor;
   final double? progressIndicatorStrokeWidth;
