@@ -15,7 +15,7 @@ class ButtonContents extends StatelessWidget {
     this.rtl = false,
     this.isLoading = false,
     this.buttonType,
-    this.alignLeft = false,
+    this.alignLeft = true,
     this.style,
   }) : super(key: key);
 
