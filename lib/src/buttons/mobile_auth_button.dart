@@ -45,7 +45,7 @@ class MobileAuthButton extends AuthButton {
     if (style!.iconType == AuthIconType.secondary) return AuthIcons.sim[0];
     return (style!.buttonType == AuthButtonType.secondary)
         ? AuthIcons.sim[0]
-        : AuthIcons.sim[1];
+        : AuthIcons.sim[0];
   }
 
   @override
@@ -57,23 +57,5 @@ class MobileAuthButton extends AuthButton {
       return style!.buttonColor ??
           (darkMode ? AuthColors.darkMode : Colors.white);
     return style!.buttonColor ?? (darkMode ? AuthColors.darkMode : Colors.teal);
-  }
-
-  @override
-  TextStyle getTextStyle() {
-    if (style!.iconType == AuthIconType.secondary &&
-        style!.buttonType != AuthButtonType.secondary)
-      return TextStyle(
-        color: darkMode ? Colors.white : Colors.teal[900],
-        fontSize: 18,
-        fontWeight: FontWeight.bold,
-        letterSpacing: 0.50,
-      );
-    return const TextStyle(
-      color: Colors.white,
-      fontSize: 18,
-      fontWeight: FontWeight.bold,
-      letterSpacing: 0.50,
-    );
   }
 }
