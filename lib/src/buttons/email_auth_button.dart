@@ -9,8 +9,8 @@ import 'package:auth_buttons/src/shared/auth_icons.dart';
 import 'package:auth_buttons/src/shared/auth_style.dart';
 import 'package:flutter/material.dart';
 
-class MobileAuthButton extends AuthButton {
-  const MobileAuthButton({
+class EmailAuthButton extends AuthButton {
+  const EmailAuthButton({
     Key? key,
     required VoidCallback onPressed,
     VoidCallback? onLongPress,
@@ -21,7 +21,7 @@ class MobileAuthButton extends AuthButton {
     bool alignLeft = false,
     AuthButtonStyle? style,
   }) : super(
-          key: key ?? const ValueKey<String>('MobileAuthButton'),
+          key: key ?? const ValueKey<String>('EmailAuthButton'),
           onPressed: onPressed,
           onLongPress: onLongPress,
           text: text,
@@ -41,10 +41,10 @@ class MobileAuthButton extends AuthButton {
   @override
   String getIconUrl() {
     if (style!.iconType == AuthIconType.outlined)
-      return darkMode ? AuthIcons.emailWhite[1] : AuthIcons.sim[0];
-    if (style!.iconType == AuthIconType.secondary) return AuthIcons.sim[0];
+      return darkMode ? AuthIcons.emailWhite[1] : AuthIcons.email[1];
+    if (style!.iconType == AuthIconType.secondary) return AuthIcons.email[2];
     return (style!.buttonType == AuthButtonType.secondary)
-        ? AuthIcons.sim[0]
+        ? AuthIcons.email[0]
         : AuthIcons.emailWhite[0];
   }
 
