@@ -14,7 +14,7 @@ class MobileAuthButton extends AuthButton {
     Key? key,
     required VoidCallback onPressed,
     VoidCallback? onLongPress,
-    String text = 'Sign in with Email',
+    String text = 'Sign in with Mobile',
     bool darkMode = false,
     bool rtl = false,
     bool isLoading = false,
