@@ -24,7 +24,7 @@ class AuthButtonStyle {
     this.iconBackground,
     this.iconType,
     this.shadowColor,
-    this.alignLeft = false,
+    this.alignLeft,
     this.progressIndicatorColor,
     this.progressIndicatorValueColor,
     this.progressIndicatorStrokeWidth,
@@ -180,7 +180,7 @@ class AuthButtonStyle {
   final Color? shadowColor;
 
   //Align button contents to left
-  final bool? alignLeft = false;
+  final bool? alignLeft;
   final Color? progressIndicatorColor;
   final Color? progressIndicatorValueColor;
   final double? progressIndicatorStrokeWidth;
