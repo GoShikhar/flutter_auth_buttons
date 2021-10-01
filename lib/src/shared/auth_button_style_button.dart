@@ -18,6 +18,7 @@ abstract class AuthButtonStyleButton extends StatelessWidget {
     required this.darkMode,
     required this.isLoading,
     required this.rtl,
+    required this.alignLeft,
   }) : super(key: key);
 
   ///**[onPressed]** is a void function well be called when the button is pressed.
