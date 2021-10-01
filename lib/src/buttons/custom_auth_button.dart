@@ -29,7 +29,7 @@ class CustomAuthButton extends AuthButton {
         );
 
   ///[icon] Define the icon.
-  final String icon;
+  final Icons icon;
 
   @override
   String getIconUrl() {

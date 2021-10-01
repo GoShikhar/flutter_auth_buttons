@@ -10,7 +10,7 @@ class ButtonContents extends StatelessWidget {
   const ButtonContents({
     Key? key,
     this.text = '',
-    this.iconUrl = '',
+    this.icon,
     this.darkMode = false,
     this.rtl = false,
     this.isLoading = false,
@@ -20,7 +20,7 @@ class ButtonContents extends StatelessWidget {
   }) : super(key: key);
 
   final String text;
-  final String iconUrl;
+  final Icons icon;
   final bool darkMode;
   final bool rtl;
   final bool isLoading;
