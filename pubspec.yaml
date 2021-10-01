@@ -32,6 +32,8 @@ flutter:
     - packages/auth_buttons/images/default/email_white.png
     - packages/auth_buttons/images/default/huawei.png
     - packages/auth_buttons/images/default/huawei_white.png
+    - packages/auth_buttons/images/default/sim.png
+    - packages/auth_buttons/images/default/sim_white.png
 
     - packages/auth_buttons/images/outlined/google.png
     - packages/auth_buttons/images/outlined/microsoft.png
