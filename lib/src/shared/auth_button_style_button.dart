@@ -113,6 +113,7 @@ abstract class AuthButtonStyleButton extends StatelessWidget {
           style: AuthButtonStyle(
             width: style!.width,
             height: style!.height,
+            alignLeft: style!.alignLeft,
             borderRadius: style!.borderRadius,
             padding: style!.padding ?? const EdgeInsets.only(right: 16.0),
             buttonColor: getButtonColor(),
@@ -133,6 +134,7 @@ abstract class AuthButtonStyleButton extends StatelessWidget {
             style: AuthButtonStyle(
               textStyle: getTextStyle(),
               iconSize: style!.iconSize,
+              alignLeft: style!.alignLeft,
               separator: style!.separator,
               borderRadius: style!.borderRadius,
               iconBackground: getIconBackground(),
@@ -173,6 +175,7 @@ abstract class AuthButtonStyleButton extends StatelessWidget {
             style: AuthButtonStyle(
               textStyle: getTextStyle(),
               iconSize: style!.iconSize,
+              alignLeft: style!.alignLeft,
               separator: style!.separator,
               progressIndicatorColor: style!.progressIndicatorColor,
               progressIndicatorValueColor: style!.progressIndicatorValueColor ??

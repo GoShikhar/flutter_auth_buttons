@@ -31,7 +31,8 @@ class ButtonContents extends StatelessWidget {
     return Row(
       key: key,
       mainAxisSize: MainAxisSize.min,
-      mainAxisAlignment: MainAxisAlignment.center,
+      mainAxisAlignment:
+          (alignLeft) ? MainAxisAlignment.left : MainAxisAlignment.center,
       textDirection: rtl ? TextDirection.rtl : null,
       children: <Widget>[
         Container(
