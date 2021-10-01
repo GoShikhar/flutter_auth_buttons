@@ -16,6 +16,7 @@ class AuthButton extends AuthButtonStyleButton {
     String? text,
     bool darkMode = false,
     bool isLoading = false,
+    bool alignLeft = false,
     bool rtl = false,
   }) : super(
           key: key,
@@ -25,6 +26,7 @@ class AuthButton extends AuthButtonStyleButton {
           text: text,
           darkMode: darkMode,
           isLoading: isLoading,
+          alignLeft: alignLeft,
           rtl: rtl,
         );
 
