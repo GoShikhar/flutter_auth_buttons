@@ -53,6 +53,8 @@ abstract class AuthButtonStyleButton extends StatelessWidget {
   /// if so will be show a progress indicator.
   final bool isLoading;
 
+  final bool alignLeft;
+
   ///**[rtl]** A boolean variable needed to support the **right to left** languages.
   ///
   ///![](https://raw.githubusercontent.com/elbeicktalat/flutter_auth_buttons/master/doc/api/buttons/google.png)
