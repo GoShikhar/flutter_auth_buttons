@@ -50,6 +50,11 @@ class AuthIcons {
     'packages/auth_buttons/images/outlined/email.png',
     'packages/auth_buttons/images/secondary/email.png',
   ];
+
+  static const List<String> sim = <String>[
+    'packages/auth_buttons/images/default/sim.png'
+  ];
+
   static const List<String> emailWhite = <String>[
     'packages/auth_buttons/images/default/email_white.png',
     'packages/auth_buttons/images/outlined/email_white.png',

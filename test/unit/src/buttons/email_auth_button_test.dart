@@ -3,18 +3,19 @@ import 'package:flutter_test/flutter_test.dart';
 
 void main() {
   group('Check the default value of', () {
-    final EmailAuthButton emailAuthButton = EmailAuthButton(onPressed: () {});
+    final MobileAuthButton MobileAuthButton =
+        MobileAuthButton(onPressed: () {});
     test('text', () {
-      expect(emailAuthButton.text, 'Sign in with Email');
+      expect(MobileAuthButton.text, 'Sign in with Email');
     });
     test('darkMode', () {
-      expect(emailAuthButton.darkMode, false);
+      expect(MobileAuthButton.darkMode, false);
     });
     test('Button type', () {
-      expect(emailAuthButton.style!.buttonType, null);
+      expect(MobileAuthButton.style!.buttonType, null);
     });
     test('rtl', () {
-      expect(emailAuthButton.rtl, false);
+      expect(MobileAuthButton.rtl, false);
     });
   });
 }

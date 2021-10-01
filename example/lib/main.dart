@@ -112,7 +112,7 @@ class _MyAppState extends State<MyApp> {
                     ),
                   ),
                   const Divider(),
-                  EmailAuthButton(
+                  MobileAuthButton(
                     onPressed: () {},
                     darkMode: darkMode,
                     isLoading: isLoading,
